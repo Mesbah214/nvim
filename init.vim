@@ -7,9 +7,9 @@
 
 " general settings
 
+source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/vim-plug.vim
 source $HOME/.config/nvim/general/key-maps.vim
-source $HOME/.config/nvim/general/settings.vim
 
 " configs for plugings
 
@@ -17,3 +17,5 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/theme.vim
 source $HOME/.config/nvim/plug-config/airline.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
+source $HOME/.config/nvim/plug-config/sneak.vim
+source $HOME/.config/nvim/plug-config/rainbow.vim

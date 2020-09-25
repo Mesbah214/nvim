@@ -44,5 +44,14 @@ Plug 'tpope/vim-surround'
 " Works with brackets
 Plug 'jiangmiao/auto-pairs'
 
-" List ends here. Plugins become visible to Vim after this call.
+" Works for drawing indentation line
+Plug 'Yggdroot/indentLine'
+
+" Works as a bracket pair colorizer
+Plug 'luochen1990/rainbow'
+
+" Works for aiding git use withing vim
+Plug 'tpope/vim-fugitive'
+
+"List ends here. Plugins become visible to Vim after this call.
 call plug#end()
