@@ -53,5 +53,9 @@ Plug 'luochen1990/rainbow'
 " Works for aiding git use withing vim
 Plug 'tpope/vim-fugitive'
 
+" Float term
+Plug 'voldikss/vim-floaterm'
+
+
 "List ends here. Plugins become visible to Vim after this call.
 call plug#end()

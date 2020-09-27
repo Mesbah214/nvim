@@ -23,6 +23,11 @@ inoremap JK <Esc>
 vnoremap < <gv
 vnoremap > >gv
 
+
+" Key bindings to open applications with float term
+nnoremap <Leader>t : FloatermNew<CR>
+nnoremap <Leader>l : FloatermNew lf<CR>
+
 " Mappings to move line easily.
 nnoremap <S-Down> :m .+1<CR>==
 nnoremap <S-Up> :m .-2<CR>==
