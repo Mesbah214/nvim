@@ -32,9 +32,6 @@ Plug 'sheerun/vim-polyglot'
 " Used for commenting out
 Plug 'tpope/vim-commentary'
 
-" Add filler texts to html templates
-Plug 'vim-scripts/loremipsum'
-
 " works with vertical navigation
 Plug 'justinmk/vim-sneak'
 
