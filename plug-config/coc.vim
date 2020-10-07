@@ -15,9 +15,11 @@ let g:coc_global_extensions = [
             \ 'coc-python',
             \ 'coc-emmet',
             \ 'coc-prettier',
+            \ 'coc-tsserver',
+            \ 'coc-eslint',
             \ ]
 
-
+" Works with Prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile            
             
 " Explorer
