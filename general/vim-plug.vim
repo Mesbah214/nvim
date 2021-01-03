@@ -33,10 +33,10 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
 
 " works with vertical navigation
-Plug 'justinmk/vim-sneak'
+"Plug 'justinmk/vim-sneak'
 
 " to surround texts
-Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-surround'
 
 " Works with brackets
 Plug 'jiangmiao/auto-pairs'
@@ -45,7 +45,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'Yggdroot/indentLine'
 
 " Works as a bracket pair colorizer
-Plug 'luochen1990/rainbow'
+" Plug 'luochen1990/rainbow'
 
 " Works for aiding git use withing vim
 Plug 'tpope/vim-fugitive'
@@ -53,6 +53,8 @@ Plug 'tpope/vim-fugitive'
 " Float term
 Plug 'voldikss/vim-floaterm'
 
+" Emmet for html
+Plug 'mattn/emmet-vim'
 
 "List ends here. Plugins become visible to Vim after this call.
 call plug#end()
