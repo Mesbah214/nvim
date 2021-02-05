@@ -17,7 +17,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" Color scheme for vim
+" Icons for vim
 Plug 'ryanoasis/vim-devicons'
 
 " Highlight color to work with css file
@@ -39,7 +39,7 @@ Plug 'tpope/vim-commentary'
 " Plug 'tpope/vim-surround'
 
 " Works with brackets
-Plug 'jiangmiao/auto-pairs'
+"Plug 'jiangmiao/auto-pairs'
 
 " Works for drawing indentation line
 Plug 'Yggdroot/indentLine'
@@ -55,6 +55,9 @@ Plug 'voldikss/vim-floaterm'
 
 " Emmet for html
 Plug 'mattn/emmet-vim'
+
+" vim pair gentle
+Plug 'vim-scripts/auto-pairs-gentle'
 
 "List ends here. Plugins become visible to Vim after this call.
 call plug#end()
