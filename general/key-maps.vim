@@ -56,5 +56,3 @@ nnoremap <S-Tab> :bprevious<cr>
 
 "leader key twice to cycle between last two open buffers
 nnoremap <leader><Leader> <c-^>nnoremap <S-h>
-
-inoremap <buffer> <silent> <CR> <C-R>=AutoPairsReturn(><)<CR>
