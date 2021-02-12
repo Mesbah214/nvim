@@ -59,5 +59,14 @@ Plug 'mattn/emmet-vim'
 " vim pair gentle
 Plug 'vim-scripts/auto-pairs-gentle'
 
+" Dracula theme
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+" Material theme
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+
+" Oceanic_material theme
+Plug 'glepnir/oceanic-material'
+
 "List ends here. Plugins become visible to Vim after this call.
 call plug#end()
