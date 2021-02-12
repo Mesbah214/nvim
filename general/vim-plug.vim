@@ -13,6 +13,15 @@ Plug 'jmcantrell/vim-virtualenv'
 " color scheme for vim
 Plug 'joshdick/onedark.vim'
 
+" Dracula theme
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+" Material theme
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+
+" Oceanic_material theme
+Plug 'glepnir/oceanic-material'
+
 " plugin for statuslie and tabline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -32,22 +41,13 @@ Plug 'sheerun/vim-polyglot'
 " Used for commenting out
 Plug 'tpope/vim-commentary'
 
-" works with vertical navigation
-"Plug 'justinmk/vim-sneak'
-
-" to surround texts
-" Plug 'tpope/vim-surround'
-
-" Works with brackets
-"Plug 'jiangmiao/auto-pairs'
-
 " Works for drawing indentation line
 Plug 'Yggdroot/indentLine'
 
 " Works as a bracket pair colorizer
-" Plug 'luochen1990/rainbow'
+Plug 'luochen1990/rainbow'
 
-" Works for aiding git use withing vim
+" Works for aiding git use within vim
 Plug 'tpope/vim-fugitive'
 
 " Float term
@@ -59,14 +59,8 @@ Plug 'mattn/emmet-vim'
 " vim pair gentle
 Plug 'vim-scripts/auto-pairs-gentle'
 
-" Dracula theme
-Plug 'dracula/vim', { 'as': 'dracula' }
-
-" Material theme
-Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-
-" Oceanic_material theme
-Plug 'glepnir/oceanic-material'
+" Accelerated up & down movement
+Plug 'rhysd/accelerated-jk'
 
 "List ends here. Plugins become visible to Vim after this call.
 call plug#end()

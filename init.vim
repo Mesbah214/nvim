@@ -21,3 +21,4 @@ source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/floatTerm.vim
 source $HOME/.config/nvim/plug-config/vim-emmet.vim
+source $HOME/.config/nvim/plug-config/rainbow.vim
