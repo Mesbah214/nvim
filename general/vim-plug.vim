@@ -62,5 +62,8 @@ Plug 'vim-scripts/auto-pairs-gentle'
 " Accelerated up & down movement
 Plug 'rhysd/accelerated-jk'
 
+" Nord theme
+Plug 'arcticicestudio/nord-vim', { 'branch': 'develop' }
+
 "List ends here. Plugins become visible to Vim after this call.
 call plug#end()

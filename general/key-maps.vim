@@ -13,6 +13,10 @@ nnoremap <Leader>ba :bufdo bd!<cr>
 " Keymap for git status
 nmap<Leader>gs :G<CR>
 
+" MergeTool shortcut
+nmap <leader>gj :diffget //3<CR>
+nmap <leader>gf :diffget //2<CR>
+
 " I hate escape more than anything else
 inoremap jk <Esc>
 inoremap kj <Esc>
@@ -56,3 +60,4 @@ nnoremap <S-Tab> :bprevious<cr>
 
 "leader key twice to cycle between last two open buffers
 nnoremap <leader><Leader> <c-^>nnoremap <S-h>
+

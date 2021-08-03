@@ -21,8 +21,10 @@
 "Settings for Oceanic_material
 "-----------------------------"
 " let g:oceanic_material_background = 'ocean'
-let g:oceanic_material_allow_bold = 1
-let g:oceanic_material_allow_italic = 1
-let g:oceanic_material_allow_undercurl = 1
+" let g:oceanic_material_allow_bold = 1
+" let g:oceanic_material_allow_italic = 1
+" let g:oceanic_material_allow_undercurl = 1
 
-colorscheme oceanic_material
+" colorscheme oceanic_material
+
+colorscheme nord
